@@ -3,6 +3,7 @@ import '../styles/Header.css'
 function Header() {
   return (
     <div>
+      {/* Header */}
       <div className='Navbar'>
         <div className='logo'>
           <h1><span className=''>Bazarstore.Az</span></h1>
