@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+.Navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.Navbar select{
+    height: 40px;
+    width: 200px;
+    border-radius: 18px;
+}
+.Navbar input{
+    height: 40px;
+    width: 200px;
+    border-radius: 18px;
+    position: relative;
+}
+.Navbar i{
+    position: absolute
+}
