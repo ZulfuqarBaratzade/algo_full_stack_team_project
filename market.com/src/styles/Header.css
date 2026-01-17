@@ -9,27 +9,16 @@
 .head{
     width: 400px;
 }
-<<<<<<< HEAD
-.Navbar select{
-    height: 40px;
-    width: 200px; 
-    border-radius: 18px;
-=======
+
 .navbar{
     display: flex;
     align-items: center;
-
->>>>>>> 83f1e7218ff225a2f1101725372b78b775ba4187
 }
 
 .head-logo{
     max-width: 300px;
 }
-<<<<<<< HEAD
-.Navbar i{
-    position: absolute;
-=======
+
 .head-logo svg{
     width: 100%;
->>>>>>> 83f1e7218ff225a2f1101725372b78b775ba4187
 }
