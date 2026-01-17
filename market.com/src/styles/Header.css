@@ -1,24 +1,23 @@
 *{
+    margin: 0;
     padding: 0;
-    top: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
-.Navbar{
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
+
+.head{
+    width: 400px;
 }
-.Navbar select{
-    height: 40px;
-    width: 200px;
-    border-radius: 18px;
+.navbar{
+    display: flex;
+    align-items: center;
+
 }
-.Navbar input{
-    height: 40px;
-    width: 200px;
-    border-radius: 18px;
-    position: relative;
+
+.head-logo{
+    max-width: 300px;
 }
-.Navbar i{
-    position: absolute
+.head-logo svg{
+    width: 100%;
 }
