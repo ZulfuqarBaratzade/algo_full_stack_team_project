@@ -10,7 +10,7 @@
 }
 .Navbar select{
     height: 40px;
-    width: 200px;
+    width: 200px; 
     border-radius: 18px;
 }
 .Navbar input{
@@ -20,5 +20,5 @@
     position: relative;
 }
 .Navbar i{
-    position: absolute
+    position: absolute;
 }
