@@ -1,24 +1,35 @@
 *{
+    margin: 0;
     padding: 0;
-    top: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
-.Navbar{
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
+
+.head{
+    width: 400px;
 }
+<<<<<<< HEAD
 .Navbar select{
     height: 40px;
     width: 200px; 
     border-radius: 18px;
+=======
+.navbar{
+    display: flex;
+    align-items: center;
+
+>>>>>>> 83f1e7218ff225a2f1101725372b78b775ba4187
 }
-.Navbar input{
-    height: 40px;
-    width: 200px;
-    border-radius: 18px;
-    position: relative;
+
+.head-logo{
+    max-width: 300px;
 }
+<<<<<<< HEAD
 .Navbar i{
     position: absolute;
+=======
+.head-logo svg{
+    width: 100%;
+>>>>>>> 83f1e7218ff225a2f1101725372b78b775ba4187
 }
