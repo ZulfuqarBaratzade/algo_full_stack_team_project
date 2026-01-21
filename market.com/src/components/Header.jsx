@@ -1,12 +1,14 @@
 import React from 'react'
 import '../styles/Header.css'
+
 function Header() {
   return (
-    <div>
-     <header className='head'>
+    <header className="head">
       <div className="navbar">
-   <div className="head-logo">
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="2735.000000pt" height="526.000000pt" viewBox="0 0 2735.000000 526.000000" preserveAspectRatio="xMidYMid meet">
+
+        <div className="head-logo">
+          <a href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="2735.000000pt" height="526.000000pt" viewBox="0 0 2735.000000 526.000000" preserveAspectRatio="xMidYMid meet">
 
 <g transform="translate(0.000000,526.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
 <path d="M21460 5234 c-149 -40 -294 -186 -361 -363 -51 -137 -50 -52 -47 -2276 3 -2331 -5 -2102 83 -2281 71 -145 179 -243 314 -284 62 -20 108 -20 2745 -20 2909 0 2721 -3 2827 50 125 64 240 220 291 395 l23 80 0 2095 0 2095 -23 80 c-64 221 -223 393 -403 434 -29 7 -949 10 -2719 10 -2322 0 -2682 -2 -2730 -15z m2350 -1499 c301 -45 515 -185 626 -410 97 -196 106 -305 102 -1167 l-3 -636 -23 -25 c-43 -46 -426 -125 -717 -148 -338 -26 -617 16 -838 129 -72 36 -110 64 -173 127 -131 131 -177 253 -178 475 -1 205 47 333 169 455 151 151 358 230 663 255 133 11 348 2 502 -20 36 -5 69 -10 74 -10 16 0 -2 221 -24 292 -55 179 -190 246 -470 235 -187 -8 -321 -41 -474 -118 -92 -47 -97 -44 -199 106 -103 152 -129 198 -121 219 13 34 198 132 333 175 223 73 529 100 751 66z m2915 -60 c23 -23 25 -31 25 -130 0 -67 -5 -117 -14 -138 -7 -18 -255 -369 -551 -782 -296 -412 -540 -756 -542 -762 -4 -10 108 -13 544 -13 414 0 552 -3 561 -12 9 -9 12 -70 12 -214 0 -175 -2 -203 -17 -215 -13 -12 -165 -14 -899 -14 -834 0 -884 1 -901 18 -14 14 -19 38 -21 113 -7 172 -51 97 557 945 l549 764 -505 5 c-485 5 -505 6 -519 24 -11 16 -14 61 -14 206 0 190 4 210 40 223 8 3 388 6 843 6 l828 1 24 -25z m-4496 -1639 c15 -8 32 -26 39 -41 17 -36 17 -517 0 -548 -24 -46 -29 -46 -316 -47 l-273 0 -24 25 -25 24 0 268 c0 289 2 302 54 323 11 5 133 9 269 9 196 1 254 -2 276 -13z"/>
@@ -22,22 +24,33 @@ function Header() {
 <path d="M19279 3740 c-350 -44 -603 -208 -738 -477 -80 -159 -95 -300 -88 -816 4 -345 7 -390 25 -463 72 -281 264 -480 555 -577 238 -80 547 -81 822 -2 164 47 446 202 491 270 20 30 18 33 -109 202 -79 106 -104 133 -123 133 -14 0 -65 -24 -114 -54 -163 -98 -287 -140 -456 -155 -227 -20 -392 28 -489 142 -56 65 -77 134 -83 270 l-4 117 691 0 c678 0 691 0 711 20 19 19 20 33 20 273 0 371 -18 491 -95 652 -113 234 -320 385 -610 446 -104 22 -309 32 -406 19z m250 -450 c35 -6 91 -23 125 -39 164 -75 236 -211 236 -443 l0 -78 -460 0 -460 0 0 93 c0 115 21 214 58 281 81 144 287 220 501 186z"/>
 <path d="M4696 3674 c-22 -22 -24 -380 -2 -410 14 -18 34 -19 520 -24 l505 -5 -549 -765 -550 -765 0 -141 c0 -96 4 -144 12 -152 9 -9 223 -12 899 -12 794 0 889 2 903 16 13 13 16 46 16 207 0 106 -5 199 -10 207 -8 13 -86 16 -565 20 l-556 5 502 700 c276 385 526 735 556 778 l53 78 0 127 c0 86 -4 132 -12 140 -9 9 -214 12 -859 12 -757 0 -849 -2 -863 -16z"/>
 </g>
-</svg></a>
+</svg>
+          </a>
+        </div>
+
+        <div className="head-center">
+          <a href="#" className="delivery">
+            Çatdırılma Ünvanı Seçin
+            <i className="fa-solid fa-angle-down"></i>
+          </a>
+
+          {/* AXTARIŞ */}
+          <div className="search-box">
+            <input type="text" placeholder="Məhsul axtar" />
+            <i className="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <div className="head-left">
+          <a href="#"><i className="fa-regular fa-user"></i></a>
+          <a href="#"><i className="fa-regular fa-heart"></i></a>
+          <a href="#"><i className="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
       </div>
-      <div className="head-center">
-        <a href="#">Çatdırılma Ünvavı Seçin</a>
-        <input type="text" placeholder='Məhsul Axtar'/>
-      </div>
-      <div className="head-left">
-        <a href="#"><i class="fa-regular fa-user"></i></a>
-        <a href="#"><i class="fa-regular fa-user"></i></a>
-        <a href="#"><i class="fa-thin fa-heart"></i></a>
-      </div>
-      </div>
-   
-     </header>
-    </div>
+    </header>
   )
 }
 
 export default Header
+ 
